@@ -1,0 +1,55 @@
+.introSect{
+    width: 1000px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-color: black;
+    background-color: rgb(54, 54, 54);
+    border-radius: 2px;
+    border: 2px solid black;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    
+}
+
+.introSect:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+
+.introsect .imgContainer{
+    width: 100px;
+    flex: 0 0 150px;
+}
+.introsect .imgContainer .introPic{
+    max-width: 100%;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.introSect .textContainer{
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+.introSect .textContainer h2{
+    margin: 0;
+    padding-left: 0;
+    font-size: 22px;
+}
+.introSect .textContainer p{
+    margin:0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
+
+.introPic{
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 2px;
+    
+}
+
+

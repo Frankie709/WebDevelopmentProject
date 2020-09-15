@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CS 290 Form Submit Page</title>
+    <link rel="stylesheet" href="css/submit.css">
+    <!-- Many coding examples have been adapted from tutorials found on www.w3schools.com or on Youtube. -->
+</head>
+
+<body>
+    <!-- Navigation Bar-->
+    <div class="bar">
+        <ul class="navBar">
+            <li class="webName"><a href="index.html">Ahsoka's Bookshelf</a></li>
+            <li class="navEle"><a href="list.html">List</a></li>
+            <li class="navEle current"><a href="submit.html">Submit</a></li>
+            <li class="navEle"><a href="reviews.html">Reviews</a></li>
+            <li class="navEle"><a href="index.html">Home</a></li>
+        </ul>
+    </div>>
+
+    <div class="subContainer">
+        <h1 class="subHead">What should I read next??</h1>
+        <p class="subPara">As a true book nerd, i am always looking for the next book i am going to add to my bookshelf.
+        </p>
+        <p class="subPara">So I am always asking family, friends, and bookstore employees for their recommendation.</p>
+        <p class="subPara">Now i am asking y'all. Please submit below a book/series that y'all recommend i read.</p>
+        <p class="subPara">I have a few favorite genres, but i love reading new stuff, so bring it on!!</p>
+    </div>
+
+    <!-- Post Form -->
+    <section>
+        <form id="recommendation"
+            action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php"
+            method="post" target="_blank">
+            <fieldset>
+                <legend> Your Recommendation </legend>
+                <label for="book"> Book Title:<br>
+                    <input type="text" name="book">
+                </label>
+                <br>
+                <label for="author"> Author: <br>
+                    <input type="text" name="author">
+                </label>
+                <br>
+                <label for="genre"> Genre: <br>
+                    <input type="text" name="genre">
+                </label>
+                <br>
+                <label for="recommend"> Why should i read this book?:<br>
+                    <textarea name="recommend" form="recommendation" rows="20"></textarea>
+                </label>
+                <br><br>
+                <label>
+                    <input id="iSubmit" type="submit" value="Submit">
+                </label>
+                <p>**Please note** Submission will lead you to an external page which is testing for grading purposes only. I will not actually receive submission. I will update this when i am awesome at web development. Gracias. </p>
+            </fieldset>
+        </form>
+    </section>
+
+
+    <script src="js/submit.js"></script>
+</body>
+
+</html>

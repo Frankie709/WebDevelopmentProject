@@ -1,0 +1,73 @@
+body{
+    background: teal;
+    color: white;
+}
+
+
+/*Navigation Bar*/
+.navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color : rgb(54, 54, 54);
+    /*position: fixed; 
+    position: sticky;*/
+    top: 0;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 2px;
+
+    height: 600px;
+    background-image: url("../photos/bookShelf.JPG");
+    /* bookShelf.JPG source: -	https://cdn.pixabay.com/photo/2016/09/10/17/18/book-1659717_1280.jpg */
+    background-size: 100% 100%;
+    
+}
+
+.webName{
+    float:left;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    padding: 14px 16px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 2px;
+    border: 2px solid black;
+    
+}
+
+.webName a{
+    text-decoration : none;
+    color: white;
+}
+
+
+.navEle {
+    float: right;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: rgb(54, 54, 54);
+}
+
+.navEle:nth-child(1){
+    border-right: none;
+}
+    /*Target anchor after .navEle class*/
+.navEle a{
+    text-decoration : none;
+    color: white;
+    display: block;
+    text-align:center;
+    padding: 20px 16px;
+}
+
+.navEle a:hover {
+    background-color: black;
+}
+
+.current {
+    background-color: teal;
+}
+

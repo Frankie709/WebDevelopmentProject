@@ -1,0 +1,147 @@
+body{
+    background: teal;
+    color: white;
+}
+
+
+/*Navigation Bar*/
+.navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color : rgb(54, 54, 54);
+    /*position: fixed; 
+    position: sticky;*/
+    top: 0;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-image: url('../photos/bookWall.JPG');
+    /* bookWall.JPG Source: -	https://cdn.pixabay.com/photo/2016/09/08/22/43/books-1655783_1280.jpg */
+    height: 600px;
+    background-repeat: none;
+    background-size: 100% 100%
+}
+
+.webName{
+    float:left;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    padding: 14px 16px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 2px;
+    border: 2px solid black;
+}
+
+.webName a{
+    text-decoration : none;
+    color: white;
+}
+
+.navEle {
+    float: right;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: rgb(54, 54, 54);
+}
+
+.navEle:nth-child(1){
+    border-right: none;
+}
+    /*Target anchor after .navEle class*/
+.navEle a{
+    text-decoration : none;
+    color: white;
+    display: block;
+    text-align:center;
+    padding: 20px 16px;
+}
+
+.navEle a:hover {
+    background-color: black;
+}
+
+.current {
+    background-color: teal;
+}
+
+
+
+.reviewsContainer{
+    padding: 20px;
+    box-sizing: border-box;
+    border-color: black;
+    background-color: rgb(54, 54, 54);
+    border-radius: 2px;
+    border: 2px solid black;
+    margin: 50px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    
+
+    /*
+    width: 1000px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-color: black;
+    background-color: rgb(54, 54, 54);
+    border-radius: 2px;
+    border: 2px solid black;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    */
+}
+
+.reviewsContainer:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+
+.reviewsContainer .imgContainer{
+    width: 100px;
+    flex: 0 0 150px;
+}
+
+.reviewsContainer .imgContainer .reviewsPic{
+    max-width: 100%;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.reviewsContainer .textContainer{
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+.reviewsContainer .textContainer h2{
+    margin: 0;
+    padding-left: 0;
+    font-size: 22px;
+}
+.reviewsContainer .textContainer p{
+    margin:0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
+
+.reviewsPic{
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+a:link, a:visited { 
+    color: white;
+    
+    cursor: pointer;
+  }
+  
+  a:link:active, a:visited:active { 
+    color: white;
+  }
